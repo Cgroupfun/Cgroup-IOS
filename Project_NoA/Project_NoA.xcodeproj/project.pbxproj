@@ -468,6 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FBX28493GR;
 				INFOPLIST_FILE = "Project_NoA WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -489,6 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FBX28493GR;
 				INFOPLIST_FILE = "Project_NoA WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -511,6 +513,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FBX28493GR;
 				IBSC_MODULE = Project_NoA_WatchKit_Extension;
 				INFOPLIST_FILE = "Project_NoA WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "Keiya-Kato.Project-NoA.watchkitapp";
@@ -529,6 +532,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FBX28493GR;
 				IBSC_MODULE = Project_NoA_WatchKit_Extension;
 				INFOPLIST_FILE = "Project_NoA WatchKit App/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "Keiya-Kato.Project-NoA.watchkitapp";
@@ -546,6 +550,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FBX28493GR;
 				INFOPLIST_FILE = Project_NoA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -563,6 +568,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FBX28493GR;
 				INFOPLIST_FILE = Project_NoA/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
