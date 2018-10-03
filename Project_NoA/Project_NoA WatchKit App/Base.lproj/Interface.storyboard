@@ -9,13 +9,15 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14033"/>
     </dependencies>
     <scenes>
-        <!--Interface Controller-->
+        <!--heya-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Project_NoA_WatchKit_App" customModuleProvider="target">
+                <controller backgroundImage="heya" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Project_NoA_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="left" text="おはよー！" id="C36-FE-ylf"/>
-                        <imageView width="100" height="97" alignment="center" verticalAlignment="bottom" image="sampleNoA" id="jiQ-kT-Pdd"/>
+                        <label alignment="left" text="おはよー！" id="C36-FE-ylf">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </label>
+                        <imageView width="78" height="70" alignment="center" verticalAlignment="bottom" image="sampleNoA" id="jiQ-kT-Pdd"/>
                     </items>
                     <connections>
                         <outlet property="ZZZ" destination="C36-FE-ylf" id="s0G-CL-tAk"/>
