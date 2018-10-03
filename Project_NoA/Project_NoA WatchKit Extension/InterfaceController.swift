@@ -22,17 +22,18 @@ class InterfaceController: WKInterfaceController {
     }
     
     override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
+        // アプリが起動している時の動作
         super.willActivate()
+        //充電時の画面遷移
+        if WKInterfaceDevice.current().batteryState == WKInterfaceDeviceBatteryState.charging{
+            self.ZZZ.setText("おやすみ")
+        }
        
     }
     
     override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
+        // アプリが起動してない状態の動作
         super.didDeactivate()
-        if WKInterfaceDevice.current().batteryState == WKInterfaceDeviceBatteryState.charging{
-            self.ZZZ.setText("おやすみ")
-        }
         
     }
 
