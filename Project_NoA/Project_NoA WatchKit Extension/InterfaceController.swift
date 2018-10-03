@@ -8,10 +8,13 @@
 
 import WatchKit
 import Foundation
+import UIKit
 
 
 class InterfaceController: WKInterfaceController {
 
+    
+    @IBOutlet var ZZZ: WKInterfaceLabel!
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
@@ -19,13 +22,19 @@ class InterfaceController: WKInterfaceController {
     }
     
     override func willActivate() {
-        // This method is called when watch view controller is about to be visible to user
+        // アプリが起動している時の動作
         super.willActivate()
+        //充電時の画面遷移
+        if WKInterfaceDevice.current().batteryState == WKInterfaceDeviceBatteryState.charging{
+            self.ZZZ.setText("おやすみ")
+        }
+       
     }
     
     override func didDeactivate() {
-        // This method is called when watch view controller is no longer visible
+        // アプリが起動してない状態の動作
         super.didDeactivate()
+        
     }
 
 }
