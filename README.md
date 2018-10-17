@@ -13,3 +13,5 @@
 ## アニメーション
 -　　ホーム画面はUIview.animateを使う 
 - 注射、MRI、レントゲン
+
+ieeeeeeeeeei
