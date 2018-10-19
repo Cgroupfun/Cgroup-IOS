@@ -15,27 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-//        // UserDefaults のインスタンス
-//        let userDefaults = UserDefaults.standard
-//
-//        let str = userDefaults.object(forKey: "state")
-//
-//        if str != nil {
-//            //2回目以降
-//            return true
-//
-//        }else{
-//            //初期画面
-//            // デフォルト値
-//            userDefaults.register(defaults: ["state": "aaa"])
-//            // Keyを指定して保存
-//            userDefaults.set(str, forKey: "state")
-//            // データの同期
-//            userDefaults.synchronize()
-//
-//            return false
-//        }
+        
         return true
     }
     
