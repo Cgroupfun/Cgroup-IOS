@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14113" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14313.18" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
     <device id="watch38" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="watchOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14033"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14238.10"/>
     </dependencies>
     <scenes>
         <!--heya-->
@@ -14,13 +14,22 @@
             <objects>
                 <controller backgroundImage="heya" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Project_NoA_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <label alignment="left" text="おはよー！" id="C36-FE-ylf">
+                        <label alignment="left" text="おはよう" id="C36-FE-ylf">
                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </label>
-                        <imageView width="78" height="70" alignment="center" verticalAlignment="bottom" image="sampleNoA" id="jiQ-kT-Pdd"/>
+                        <imageView width="78" height="70" alignment="center" verticalAlignment="bottom" image="sampleNoA" id="jiQ-kT-Pdd">
+                            <gestureRecognizers>
+                                <tapGestureRecognizer id="Fv2-AY-1sj">
+                                    <connections>
+                                        <action selector="oshaberi:" destination="AgC-eL-Hgc" id="Ofr-aV-f7X"/>
+                                    </connections>
+                                </tapGestureRecognizer>
+                            </gestureRecognizers>
+                        </imageView>
                     </items>
                     <connections>
-                        <outlet property="ZZZ" destination="C36-FE-ylf" id="s0G-CL-tAk"/>
+                        <outlet property="NoA" destination="jiQ-kT-Pdd" id="51d-Hu-RDM"/>
+                        <outlet property="ZZZ" destination="C36-FE-ylf" id="w0L-DE-ig3"/>
                     </connections>
                 </controller>
             </objects>

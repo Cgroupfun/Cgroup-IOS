@@ -20,6 +20,8 @@
 		4D13B5CD215DFE6800095F97 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13B5CC215DFE6800095F97 /* ExtensionDelegate.swift */; };
 		4D13B5CF215DFE6800095F97 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D13B5CE215DFE6800095F97 /* NotificationController.swift */; };
 		4D13B5D1215DFE6800095F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D13B5D0215DFE6800095F97 /* Assets.xcassets */; };
+		4D289F23216DD70300BF6D58 /* S1090005.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 4D289F22216DD70300BF6D58 /* S1090005.MP4 */; };
+		4D4B6E2D2179A352007DC102 /* Anime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4B6E2C2179A352007DC102 /* Anime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		4D13B5D0215DFE6800095F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D13B5D2215DFE6800095F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D13B5D3215DFE6800095F97 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		4D289F22216DD70300BF6D58 /* S1090005.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = S1090005.MP4; path = ../../../S1090005.MP4; sourceTree = "<group>"; };
+		4D4B6E2C2179A352007DC102 /* Anime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +159,8 @@
 				4D13B5D0215DFE6800095F97 /* Assets.xcassets */,
 				4D13B5D2215DFE6800095F97 /* Info.plist */,
 				4D13B5D3215DFE6800095F97 /* PushNotificationPayload.apns */,
+				4D289F22216DD70300BF6D58 /* S1090005.MP4 */,
+				4D4B6E2C2179A352007DC102 /* Anime.swift */,
 			);
 			path = "Project_NoA WatchKit Extension";
 			sourceTree = "<group>";
@@ -272,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D13B5BF215DFE6700095F97 /* Assets.xcassets in Resources */,
+				4D289F23216DD70300BF6D58 /* S1090005.MP4 in Resources */,
 				4D13B5BD215DFE6700095F97 /* Interface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D4B6E2D2179A352007DC102 /* Anime.swift in Sources */,
 				4D13B5CF215DFE6800095F97 /* NotificationController.swift in Sources */,
 				4D13B5CD215DFE6800095F97 /* ExtensionDelegate.swift in Sources */,
 				4D13B5CB215DFE6800095F97 /* InterfaceController.swift in Sources */,
