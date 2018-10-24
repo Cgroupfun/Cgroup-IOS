@@ -9,11 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBAction func modoru(segue: UIStoryboardSegue) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        //ホーム画面の背景
+        let bg = UIImageView(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height))
+        bg.image = UIImage(named: "iPhone6_Top.png")
+        bg.layer.zPosition = -1
+        self.view.addSubview(bg)
     }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
